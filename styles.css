@@ -26,7 +26,7 @@ h2 {
 #header {
   background-image: url("img/msc.jpg");
   background-size: cover;
-  background-position: 30%;
+  background-position: 50%;
   height: 400px;
   top: 0px;
   display: flex;
