@@ -6,10 +6,11 @@ body {
 
 h1,
 h2 {
-  /* background-color: #457b9d; */
   padding: 5px 10px;
   border-radius: 15px;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 20px black;
+  font-weight: 800;
+  font-size: 50px;
 }
 .img-act {
   width: 150px;
@@ -28,7 +29,7 @@ h2 {
   background-size: cover;
   background-position: 50%;
   height: 400px;
-  top: 0px;
+  /* top: 0px; */
   display: flex;
   flex-direction: column;
   align-items: center;
