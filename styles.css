@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+}
+
+h1 {
+  background-color: #1d3557;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+h2 {
+  background-color: #457b9d;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.img-act {
+  width: 150px;
+  height: 120px;
+  border-radius: 30%;
+  border: 2px solid black;
+}
+#img-bc {
+  width: 250px;
+  height: 250px;
+  margin: 10px 10px;
+  border-radius: 20px;
+}
+#header {
+  background-image: url("img/moscow.jpg");
+  background-size: cover;
+  background-position: 30%;
+  height: 400px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  height: 500px;
+}
+
+#activities {
+  background: #f1faee;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  font-size: 20px;
+}
+#act-header {
+  font-weight: 800;
+  font-size: 30px;
+}
+#activities2 {
+  display: flex;
+  justify-content: center;
+}
+.acts {
+  margin-top: 20px;
+  padding: 10px 50px;
+}
+#business-card {
+  background-color: #ffefd3;
+  display: flex;
+  justify-content: space-between;
+}
+#box {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  font-size: 20px;
+  padding: 20px 30px;
+}
+#box:hover {
+  background-color: #f3e0ec;
+}
